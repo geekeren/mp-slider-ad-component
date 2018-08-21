@@ -1,0 +1,12 @@
+<swiper wx:if="{{ads.length > 0}}"
+    autoplay="{{autoplay}}"
+    interval="{{interval}}"
+    duration="{{duration}}"
+    indicator-dots="{{showdots}}">
+    <block wx:for="{{ads}}" wx:key="*this">
+      <swiper-item>
+        <ad unit-id="adunit-{{item}}"></ad>
+      </swiper-item>
+    </block>
+  </swiper>
+  <view>{{dd}}</view>
