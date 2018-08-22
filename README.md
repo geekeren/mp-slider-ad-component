@@ -18,3 +18,5 @@
 
 ## Preview
 
+![扫描预览, 查看广告需要滚动到页面底部](./slider-ad/docs/preview.jpg)
+
